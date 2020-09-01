@@ -1,0 +1,30 @@
+{
+  "id": "2040872",
+  "name": "webTagPosition",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1346705",
+      "name": "链接",
+      "font_class": "icon-test",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "5194036",
+      "name": "文件夹",
+      "font_class": "wenjianjia",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "10614362",
+      "name": "like",
+      "font_class": "like",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    }
+  ]
+}

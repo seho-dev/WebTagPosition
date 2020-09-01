@@ -1,0 +1,59 @@
+@import "../font/iconfont.css";
+
+body,
+html {
+    width: 362px;
+    height: 242px;
+    user-select: none;
+}
+
+.indexTitle {
+    font-size: 15px;
+    margin-top: .5rem;
+    text-align: center;
+}
+
+.indexTagTitle{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: .5rem;
+    margin-left: 5%;
+}
+
+.tagListTitle {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.tagList {
+    width: 100%;
+    overflow-y: auto;
+}
+
+.tagItem {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    transition: all .3s;
+    cursor: pointer;
+    width: 90%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 5%;
+}
+
+.tagItem > i{
+    font-size: 14px;
+}
+
+.tagItem > .label{
+    font-size: 14px;
+    margin-left: 10px;
+    letter-spacing: .7px;
+}
+
+.tagItem:hover {
+    opacity: .7;
+}
